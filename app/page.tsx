@@ -6,7 +6,7 @@ export default function Home() {
   // open ai api
   const openAi = new OpenAIApi(
     new Configuration({
-      apiKey: "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",
+      apiKey: "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",
     })
   )
   const [messageType, setMessageType] = useState("")
