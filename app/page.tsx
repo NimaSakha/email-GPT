@@ -6,7 +6,7 @@ export default function Home() {
   // open ai api
   const openAi = new OpenAIApi(
     new Configuration({
-      apiKey: process.env.OPEN_AI_KEY,
+      apiKey: process.env.NEXT_PUBLIC_OPEN_AI_KEY,
     })
   )
   const [messageType, setMessageType] = useState("")
